@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 4/29/2013 10:11:25 PM
+PCBNEW-BOARD Version 2 date 10/19/2013 11:34:08 AM
 
 # Created by Pcbnew(2013-03-19 BZR 4004)-stable
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title "onepixel :: WS2812 break out board"
-Date ""
+Date "19 oct 2013"
 Rev "A"
 Comp "seth hardy :: propaneandelectrons.com"
 Comment1 ""
@@ -60,7 +60,7 @@ PadDrill 0.6
 Pad2MaskClearance 0
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
-VisibleElements 7FFFFFFF
+VisibleElements 7FFFFFBF
 PcbPlotParams (pcbplotparams (layerselection 317751297) (usegerberextensions true) (excludeedgelayer true) (linewidth 152400) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory "C:/Documents and Settings/Administrator/Desktop/onepixel/gerbers/"))
 $EndSETUP
 
@@ -169,14 +169,14 @@ Po 2.54 0
 $EndPAD
 $EndMODULE SIL-3
 $MODULE SM0805
-Po 197.485 165.735 1800 15 5172E1C7 5172DBEE ~~
+Po 197.485 165.735 1800 15 5262A570 5172DBEE ~~
 Li SM0805
 Sc 5172DBEE
 AR /51539080
 Op 0 0 0
 At SMD
 T0 0 -1.27 0.635 0.635 1800 0.1016 N I 21 N "R1"
-T1 -3.81 1.524 0.635 0.635 1800 0.1016 N V 21 N "150R"
+T1 0 1.27 0.635 0.635 1800 0.1016 N V 21 N "150R"
 DS 0.55118 0.94996 1.651 0.94996 0.09906 21
 DS 1.651 0.94996 1.651 -0.94996 0.09906 21
 DS 1.651 -0.94996 0.50038 -0.94996 0.09906 21
@@ -205,14 +205,14 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE SM0805
 $MODULE SM0805
-Po 201.295 165.735 1800 15 5172E1C0 5172D983 ~~
+Po 201.295 165.735 1800 15 5262A572 5172D983 ~~
 Li SM0805
 Sc 5172D983
 AR /51539086
 Op 0 0 0
 At SMD
 T0 0 -1.27 0.635 0.635 1800 0.1016 N I 21 N "C1"
-T1 3.683 1.524 0.635 0.635 1800 0.1016 N V 21 N "0.1uF"
+T1 0 1.27 0.635 0.635 1800 0.1016 N V 21 N "0.1uF"
 DS 0.55118 0.94996 1.651 0.94996 0.09906 21
 DS 1.651 0.94996 1.651 -0.94996 0.09906 21
 DS 1.651 -0.94996 0.50038 -0.94996 0.09906 21
